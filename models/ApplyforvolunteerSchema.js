@@ -1,0 +1,64 @@
+const mongoose=require('mongoose');
+const ApplyforvolunteerSchema = new mongoose.Schema({
+    volunteer_name:{
+        type:String,
+        required:true
+    },
+    email:{
+        type:String,
+        required:true
+    },
+    studentId:{
+        type:String,
+    },
+    phone:{
+        type:String,
+    },
+    state:{
+        type:String,
+    },
+    District:{
+        type:String,
+    },
+    address:{
+        type:String,
+    },
+    availability:{
+        type:String,
+    },
+    position:{
+        type:String,
+    },
+    Blood_donar:{
+        type:Boolean,
+        // required:true
+    },
+    Blood_grp:{
+        type:String,
+        // required:true
+    },
+    Gender:{
+        type:String,
+    },
+    Profession:{
+        type:String,
+    },
+    user_id:{
+        type:String,
+    },
+    user_photo:{
+        type:String,
+    },
+    additionalInfo:{
+        type:String,
+    },
+    accept:{
+        type:Number,
+        default:0
+    },
+    date:{
+        type:Date,
+        default:Date.now
+    }
+})
+module.exports=mongoose.model('ApplyforvolunteerSchema',ApplyforvolunteerSchema);
