@@ -258,7 +258,7 @@ return res.json(await SlideSchema.find());
         service: "gmail",
         auth: {
           user: "node.mailer144@gmail.com",
-          pass: "tilt ldbh pesw igca"
+          pass: "oewi atci hkrq gzkz"
         }
       });
   
@@ -391,7 +391,7 @@ appliedvolunteer = await ApplyforvolunteerSchema.find({ accept: 0 });
         service: "gmail",
         auth: {
           user: "node.mailer144@gmail.com",
-          pass: "tilt ldbh pesw igca"
+          pass: "oewi atci hkrq gzkz"
         }
       });
   
@@ -672,7 +672,7 @@ appliedvolunteer = await ApplyforvolunteerSchema.find({ accept: -1 });
         service: "gmail",
         auth: {
           user: "node.mailer144@gmail.com",
-          pass: "tilt ldbh pesw igca"
+          pass: "oewi atci hkrq gzkz"
         },
 
       });
